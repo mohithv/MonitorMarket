@@ -2,7 +2,7 @@ import express from 'express';
 const app = express();
 app.use(express.json());
 
-const VERIFY_TOKEN = 'your_verify_token_here';
+const VERIFY_TOKEN = 'MonitorMarketSecret123';
 
 // Handle GET request for webhook verification
 app.get('/webhook', (req, res) => {
